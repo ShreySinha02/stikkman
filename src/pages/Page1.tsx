@@ -5,11 +5,10 @@ import girl from "./../assets/girl.svg";
 import {
   useTransform,
   motion,
-  useMotionValueEvent,
   useScroll,
 } from "framer-motion";
 function Page1() {
-  const ref = useRef();
+  const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
