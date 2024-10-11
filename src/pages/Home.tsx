@@ -44,8 +44,8 @@ function Home() {
               <span className="block -mr-10">in LOREM IPSUM</span>
             </h1>
           </div>
-          <div>
-            <div> text</div>
+          <div className=" flex flex-col items-center justify-center ">
+            <div className=" flex items-center justify-center"> text</div>
             <div>
               <BottomComponent text1="Lorem" w="w-56"/>
             </div>
