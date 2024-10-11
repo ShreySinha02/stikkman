@@ -6,7 +6,7 @@ import people from "./../assets/people.png"
 function Page3() {
   return (
     <div
-    className="h-full  bg-backGround overflow-hidden  flex flex-col   "
+    className="h-full  bg-backGround   flex flex-col   "
 
     >
       <NavBar/>
