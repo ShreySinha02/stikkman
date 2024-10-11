@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Logo from "../components/Logo";
 import { motion, useTransform, useScroll } from "framer-motion";
+import BottomComponent from "../components/BottomComponent";
 
 function Home() {
   const container = useRef(null);
@@ -45,7 +46,9 @@ function Home() {
           </div>
           <div>
             <div> text</div>
-            <div></div>
+            <div>
+              <BottomComponent text1="Lorem" w="w-56"/>
+            </div>
             <div></div>
           </div>
         </div>
